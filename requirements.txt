@@ -1,0 +1,8 @@
+flask
+numpy
+librosa
+tensorflow-cpu
+opencv-python
+sampleaudio
+pydub
+ffmpeg
