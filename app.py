@@ -65,7 +65,57 @@ def convert_m4a_to_wav():
 def image_similarity(item_id):
     img_file = request.files.get('img_file')
     if item_id == 1:
-        img00 = cv2.imread('Gambar_Yang_Benar/Apel.png', cv2.IMREAD_COLOR)
+        img00 = cv2.imread('Gambar_Yang_Benar/1.png', cv2.IMREAD_COLOR)
+    elif item_id == 2:
+        img00 = cv2.imread('Gambar_Yang_Benar/2.png', cv2.IMREAD_COLOR)
+    elif item_id == 3:
+        img00 = cv2.imread('Gambar_Yang_Benar/3.png', cv2.IMREAD_COLOR)
+    elif item_id == 4:
+        img00 = cv2.imread('Gambar_Yang_Benar/4.png', cv2.IMREAD_COLOR)
+    elif item_id == 5:
+        img00 = cv2.imread('Gambar_Yang_Benar/5.png', cv2.IMREAD_COLOR)
+    elif item_id == 6:
+        img00 = cv2.imread('Gambar_Yang_Benar/6.png', cv2.IMREAD_COLOR)
+    elif item_id == 7:
+        img00 = cv2.imread('Gambar_Yang_Benar/7.png', cv2.IMREAD_COLOR)
+    elif item_id == 8:
+        img00 = cv2.imread('Gambar_Yang_Benar/8.png', cv2.IMREAD_COLOR)
+    elif item_id == 9:
+        img00 = cv2.imread('Gambar_Yang_Benar/9.png', cv2.IMREAD_COLOR)
+    elif item_id == 10:
+        img00 = cv2.imread('Gambar_Yang_Benar/10.png', cv2.IMREAD_COLOR)
+    elif item_id == 11:
+        img00 = cv2.imread('Gambar_Yang_Benar/11.png', cv2.IMREAD_COLOR)
+    elif item_id == 12:
+        img00 = cv2.imread('Gambar_Yang_Benar/12.png', cv2.IMREAD_COLOR)
+    elif item_id == 13:
+        img00 = cv2.imread('Gambar_Yang_Benar/13.png', cv2.IMREAD_COLOR)
+    elif item_id == 14:
+        img00 = cv2.imread('Gambar_Yang_Benar/14.png', cv2.IMREAD_COLOR)
+    elif item_id == 15:
+        img00 = cv2.imread('Gambar_Yang_Benar/15.png', cv2.IMREAD_COLOR)
+    elif item_id == 16:
+        img00 = cv2.imread('Gambar_Yang_Benar/16.png', cv2.IMREAD_COLOR)
+    elif item_id == 17:
+        img00 = cv2.imread('Gambar_Yang_Benar/17.png', cv2.IMREAD_COLOR)
+    elif item_id == 18:
+        img00 = cv2.imread('Gambar_Yang_Benar/18.png', cv2.IMREAD_COLOR)
+    elif item_id == 19:
+        img00 = cv2.imread('Gambar_Yang_Benar/19.png', cv2.IMREAD_COLOR)
+    elif item_id == 20:
+        img00 = cv2.imread('Gambar_Yang_Benar/20.png', cv2.IMREAD_COLOR)
+    elif item_id == 21:
+        img00 = cv2.imread('Gambar_Yang_Benar/21.png', cv2.IMREAD_COLOR)
+    elif item_id == 22:
+        img00 = cv2.imread('Gambar_Yang_Benar/22.png', cv2.IMREAD_COLOR)
+    elif item_id == 23:
+        img00 = cv2.imread('Gambar_Yang_Benar/23.png', cv2.IMREAD_COLOR)
+    elif item_id == 24:
+        img00 = cv2.imread('Gambar_Yang_Benar/24.png', cv2.IMREAD_COLOR)
+    elif item_id == 25:
+        img00 = cv2.imread('Gambar_Yang_Benar/25.png', cv2.IMREAD_COLOR)
+    else:
+        img00 = cv2.imread('Gambar_Yang_Benar/26.png', cv2.IMREAD_COLOR)
         
     img_bytes = img_file.read() # Read the file content as bytes
     img_np = np.frombuffer(img_bytes, np.uint8) # Convert bytes to numpy array
